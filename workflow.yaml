@@ -1,0 +1,10 @@
+name: test_dagu_r
+description: testing dagu on r scripts
+
+steps:
+
+  - name: success
+    command: Rscript success.R
+
+  - name: fail
+    command: Rscript failure.R
